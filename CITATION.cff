@@ -1,0 +1,14 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: SauravMaheshkar/infographics
+message: >-
+  If you use these infographics, please cite it using
+  the metadata from this file
+type: dataset
+authors:
+  - name-particle: Saurav
+    name-suffix: Maheshkar
+    email: sauravvmaheshkar@gmail.com
+    orcid: 'https://orcid.org/0000-0002-5371-4651'
