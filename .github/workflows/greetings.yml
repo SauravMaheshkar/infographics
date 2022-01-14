@@ -1,0 +1,16 @@
+name: Greetings
+
+on: [pull_request, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: 'Hello there 👋, welcome to my collection of self-made infographics, really curious as to why you would open a issue in this repository'
+        pr-message: 'Hello there 👋, welcome to my collection of self-made infographics, really curious as to why you would open a PR in this repository'
